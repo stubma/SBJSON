@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary     = "Simple JSON Library"
   s.homepage = 'https://github.com/stubma/SBJSON'
   s.author   = { 'Luma' => 'stubma@gmail.com' }
-  s.source   = { :git => 'https://github.com/stubma/SBJSON.git' }
+  s.source   = { :git => 'https://github.com/stubma/SBJSON.git', :tag => s.version }
   s.ios.source_files = '*{.h,m}'
   s.tvos.deployment_target = '9.0'
   s.requires_arc = true
