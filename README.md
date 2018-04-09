@@ -1,2 +1,1 @@
-# SBJSON
-SBJSON
+pod 'SBJSON', :git => 'https://github.com/stubma/SBJSON.git'
